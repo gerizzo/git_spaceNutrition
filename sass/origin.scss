@@ -1,0 +1,57 @@
+/* MENÚ DE NAVEGACIÓN SUPERIOR */
+
+@import "_navbar";
+
+/* CAROUSEL */
+
+@import "_carousel";
+
+/* MEDIA */
+
+@import "_medias";
+
+/* PRODUCTOS INDEX */
+
+@import "_main";
+
+/* VIDEOS INDEX */
+
+@import "_videos";
+
+/* NEWSLETTER */
+
+@import "_newsletter";
+
+/* FOOTER */
+
+@import "_footer";
+
+/* ESTILOS GENERALES */
+
+@import "_estilosGenerales";
+
+/* LINEA SPACE */
+
+@import "_lineaSpace";
+
+/* VARIABLE PARA EL BACKGROUND */
+
+$variable: 3;
+
+body {
+    @if $variable > 3 {
+        background: #67B26F;
+        background: -webkit-linear-gradient(to bottom, #4ca2cd, #67B26F);
+        background: linear-gradient(to bottom, #4ca2cd, #67B26F);
+    }
+
+    @else if $variable < 3 {
+        background: #FFAFBD;
+        background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
+        background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+    }
+
+    @else if $variable == 3 {
+        background-image: linear-gradient(0, #f8e9d8 0, #f6e9d8 5.56%, #f4ead8 11.11%, #f1ebd8 16.67%, #efecd8 22.22%, #ececd9 27.78%, #e9edda 33.33%, #e6eedb 38.89%, #e4eedc 44.44%, #e1efde 50%, #def0e0 55.56%, #dcf0e2 61.11%, #daf0e4 66.67%, #d8f1e7 72.22%, #d6f1e9 77.78%, #d5f1eb 83.33%, #d4f1ee 88.89%, #d3f1f0 94.44%, #d3f1f2 100%);
+    }
+}

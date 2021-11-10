@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/* MENÚ DE NAVEGACIÓN SUPERIOR */
+.header__nav {
+  border-bottom: black solid 1px;
+  background-color: white; }
+
+.header__nav a {
+  font-weight: bold; }
+
+.header__nav a:hover {
+  text-shadow: #81eef2 0.8px 0.8px; }
+
+.header__nav__logo {
+  font-weight: lighter; }
+
+.header__nav__dropdown {
+  justify-content: right; }
+
+/* CAROUSEL */
+.header__carrusel {
+  border-bottom: 2px solid black; }
+
+.header__carrusel__img {
+  height: 70vh;
+  object-fit: cover; }
+
+.header__carrusel__h1 {
+  font-weight: bold;
+  text-shadow: black 2px 2px; }
+
+.header__carrusel__p {
+  font-size: small;
+  font-weight: bold;
+  text-shadow: black 2px 2px; }
+
+/* TUVE QUE AGREGARLE UNA ID PORQUE A LOS BOTONES DEL CARRUSEL XQ SINO POR UN TEMA DE ESPECIFICIDAD CON BOOTSTRAP NO ME TOMA LOS ESTILOS. */
+#buttonCarousel {
+  background-color: #5dafdc;
+  color: white;
+  font-family: Ubuntu, sans-serif;
+  font-size: 100%;
+  font-weight: inherit;
+  text-shadow: black 1px 1px;
+  border-radius: 30px 30px; }
+
+#buttonCarousel:hover {
+  background-color: #83c5e9;
+  cursor: pointer; }
+
+/* MEDIA */
+/* MEDIAS CARRUSEL */
+@media (max-width: 375px) {
+  .header__carrusel__caption {
+    margin-bottom: 5%; } }
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .header__carrusel__caption {
+    margin-bottom: 5%; } }
+
+/* MEDIAS MAIN */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main__productosIndex__exhibidorProductos__elemento {
+    width: 100%;
+    height: 80%; }
+  .main__productosIndex__exhibidorProductos__elemento__img {
+    height: 88%; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .main__productosIndex__exhibidorProductos__elemento {
+    width: 100%;
+    height: 80%; }
+  .main__productosIndex__exhibidorProductos__elemento__img {
+    height: 88%; } }
+
+@media (max-width: 575px) {
+  .main__productosIndex__exhibidorProductos__elemento {
+    width: 100%;
+    height: 80%; }
+  .main__productosIndex__exhibidorProductos__elemento__img {
+    height: 84%; }
+  .main__videos__contenedorVideos {
+    text-align: center; } }
+
+/* PRODUCTOS INDEX */
+.main__productosIndex__titleProductos {
+  height: 20%;
+  margin-top: 1%; }
+
+.main__productosIndex__titleProductos__h1 {
+  margin-top: 3%;
+  text-align: center;
+  align-items: center; }
+
+.main__productosIndex__exhibidorProductos__elemento__img {
+  width: 100%;
+  height: 85%;
+  overflow: hidden; }
+
+.main__productosIndex__exhibidorProductos__elemento {
+  margin-top: 10%;
+  width: 90%;
+  height: 80%;
+  border-radius: 8px;
+  box-shadow: 2px 2px black;
+  text-align: center;
+  overflow: hidden; }
+
+.main__productosIndex__exhibidorProductos__elemento:hover {
+  transform: scale(1.07);
+  transition: 0.45s; }
+
+.main__productosIndex__exhibidorProductos__contenedorProductosIndex__a {
+  text-decoration: none;
+  color: black; }
+
+/* MAIN CONTACTO */
+.main__h3 {
+  margin-top: 4%; }
+
+.main__form {
+  text-align: center; }
+
+.main__ubicacion {
+  text-align: center;
+  height: 400px; }
+
+.main__form__botonContacto {
+  padding: 5px;
+  background-color: #f0ebd1; }
+
+.main__form__botonContacto:hover {
+  cursor: pointer;
+  background-color: #ffed96; }
+
+.main__map {
+  width: 70%;
+  height: 300px;
+  border: 2px solid black; }
+
+.main__form__select {
+  cursor: pointer; }
+
+.main__form__inputCheckbox {
+  cursor: pointer; }
+
+/* MAIN BLOG */
+.bodyBlog {
+  background-image: linear-gradient(0, #f8e9d8 0, #f6e9d8 5.56%, #f4ead8 11.11%, #f1ebd8 16.67%, #efecd8 22.22%, #ececd9 27.78%, #e9edda 33.33%, #e6eedb 38.89%, #e4eedc 44.44%, #e1efde 50%, #def0e0 55.56%, #dcf0e2 61.11%, #daf0e4 66.67%, #d8f1e7 72.22%, #d6f1e9 77.78%, #d5f1eb 83.33%, #d4f1ee 88.89%, #d3f1f0 94.44%, #d3f1f2 100%); }
+
+.mainBlog__elementoBlog {
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px black;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5%;
+  background-color: white;
+  overflow: hidden; }
+
+@media (min-width: 576px) and (max-width: 770px) {
+  .mainBlog__elementoBlog {
+    height: 300px; } }
+
+@media (max-width: 575px) {
+  .mainBlog__elementoBlog {
+    height: 300px;
+    width: 60%; }
+  .mainBlog__contenedorElemento {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .segundoElementoBlog {
+    width: 80%; } }
+
+.mainBlog__elementoBlog:hover {
+  box-shadow: 0 12px 16px black;
+  transition: all 0.25s; }
+
+.mainBlog__elementoBlog__iframe {
+  width: 100%;
+  height: 100%; }
+
+.mainBlog__labelBlog {
+  margin-top: 3%; }
+
+.mainBlog__contenedorBlog {
+  justify-content: center; }
+
+/* VIDEOS INDEX */
+.main__videos {
+  margin-top: 3%; }
+
+.main__videos__iframe {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  height: 270px;
+  width: 90%; }
+
+/* NEWSLETTER */
+.main__newsletter {
+  background: #0f0c29;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.main__newsletter__input {
+  padding: 1px; }
+
+.main__newsletter__button {
+  color: black;
+  background-color: #97aee8;
+  margin-bottom: 2%;
+  padding: 1px; }
+
+.main__newsletter__button:hover {
+  background-color: #aeaef8; }
+
+/* FOOTER */
+.footer {
+  margin-top: 1%;
+  width: 100%;
+  display: flex; }
+
+.footer__li {
+  list-style-type: none; }
+
+.footer__h6 {
+  font-weight: bold;
+  font-size: large; }
+
+.footer__divBlanco {
+  width: 100%;
+  height: 5px; }
+
+.footer__a {
+  color: black;
+  text-decoration: none; }
+
+.footer__a:hover {
+  color: #97aee8; }
+
+.footer__subfooter {
+  text-align: center; }
+
+.footer__ig {
+  margin-top: 5%;
+  height: 40px;
+  width: 40px;
+  text-align: center; }
+
+/* ESTILOS GENERALES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif; }
+
+.mainProductos {
+  width: 100%; }
+
+.backgroundMain {
+  background-image: linear-gradient(0, #f8e9d8 0, #f6e9d8 5.56%, #f4ead8 11.11%, #f1ebd8 16.67%, #efecd8 22.22%, #ececd9 27.78%, #e9edda 33.33%, #e6eedb 38.89%, #e4eedc 44.44%, #e1efde 50%, #def0e0 55.56%, #dcf0e2 61.11%, #daf0e4 66.67%, #d8f1e7 72.22%, #d6f1e9 77.78%, #d5f1eb 83.33%, #d4f1ee 88.89%, #d3f1f0 94.44%, #d3f1f2 100%); }
+
+.backgroundGradientII {
+  background-image: linear-gradient(0, #f8e9d8 0, #f6e9d8 5.56%, #f4ead8 11.11%, #f1ebd8 16.67%, #efecd8 22.22%, #ececd9 27.78%, #e9edda 33.33%, #e6eedb 38.89%, #e4eedc 44.44%, #e1efde 50%, #def0e0 55.56%, #dcf0e2 61.11%, #daf0e4 66.67%, #d8f1e7 72.22%, #d6f1e9 77.78%, #d5f1eb 83.33%, #d4f1ee 88.89%, #d3f1f0 94.44%, #d3f1f2 100%); }
+
+.whiteBackground {
+  background-color: white; }
+
+.bodyContacto {
+  background-image: linear-gradient(0, #f8e9d8 0, #f6e9d8 5.56%, #f4ead8 11.11%, #f1ebd8 16.67%, #efecd8 22.22%, #ececd9 27.78%, #e9edda 33.33%, #e6eedb 38.89%, #e4eedc 44.44%, #e1efde 50%, #def0e0 55.56%, #dcf0e2 61.11%, #daf0e4 66.67%, #d8f1e7 72.22%, #d6f1e9 77.78%, #d5f1eb 83.33%, #d4f1ee 88.89%, #d3f1f0 94.44%, #d3f1f2 100%); }
+
+.titleOne {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  font-weight: bold;
+  color: #eeebeb;
+  text-shadow: 2px 2px 3px black; }
+
+.titleGray {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  font-weight: bold;
+  color: #eeebeb;
+  text-shadow: 2px 2px 3px black; }
+
+.titleWhite {
+  margin-top: 3%;
+  font-weight: bold;
+  font-size: x-large;
+  color: #d0d0d3;
+  text-shadow: 2px 2px 3px black; }
+
+/* LINEA SPACE */
+/* LINEA SPACE */
+.bodyLineaSpace {
+  background-image: linear-gradient(0, #f8e9d8 0, #f6e9d8 5.56%, #f4ead8 11.11%, #f1ebd8 16.67%, #efecd8 22.22%, #ececd9 27.78%, #e9edda 33.33%, #e6eedb 38.89%, #e4eedc 44.44%, #e1efde 50%, #def0e0 55.56%, #dcf0e2 61.11%, #daf0e4 66.67%, #d8f1e7 72.22%, #d6f1e9 77.78%, #d5f1eb 83.33%, #d4f1ee 88.89%, #d3f1f0 94.44%, #d3f1f2 100%); }
+
+.mainLineaSpace__elementoLineaSpace {
+  width: 90%;
+  height: 75%;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px black;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white; }
+
+.mainLineaSpace__elementoLineaSpace__img {
+  height: 90%;
+  width: 100%; }
+
+.mainLineaSpace__elementoLineaSpace__a {
+  text-decoration: none;
+  color: black; }
+
+.mainLineaSpace__elementoLineaSpace:hover {
+  transform: scale(1.05);
+  transition: 0.55s; }
+
+.mainLineaSpace__elementoLineaSpace__a:hover {
+  color: cadetblue;
+  text-shadow: #044d4d 1px 1px; }
+
+@media (max-width: 515px) {
+  .mainLineaSpace__elementoLineaSpace {
+    height: 90%; }
+  .mainLineaSpace__elementoLineaSpace__a p {
+    margin-bottom: 55px; } }
+
+/* VARIABLE PARA EL BACKGROUND */
+body {
+  background-image: linear-gradient(0, #f8e9d8 0, #f6e9d8 5.56%, #f4ead8 11.11%, #f1ebd8 16.67%, #efecd8 22.22%, #ececd9 27.78%, #e9edda 33.33%, #e6eedb 38.89%, #e4eedc 44.44%, #e1efde 50%, #def0e0 55.56%, #dcf0e2 61.11%, #daf0e4 66.67%, #d8f1e7 72.22%, #d6f1e9 77.78%, #d5f1eb 83.33%, #d4f1ee 88.89%, #d3f1f0 94.44%, #d3f1f2 100%); }

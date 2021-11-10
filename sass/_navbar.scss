@@ -1,0 +1,20 @@
+.header__nav {
+    border-bottom: black solid 1px;
+    background-color: white;
+}
+
+.header__nav a {
+    font-weight: bold;
+}
+
+.header__nav a:hover {
+    text-shadow: rgb(129, 238, 242) 0.8px 0.8px;
+}
+
+.header__nav__logo {
+    font-weight: lighter;
+}
+
+.header__nav__dropdown {
+    justify-content: right;
+}

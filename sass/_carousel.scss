@@ -1,0 +1,36 @@
+.header__carrusel {
+    border-bottom: 2px solid black;
+}
+
+.header__carrusel__img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.header__carrusel__h1 {
+    font-weight: bold;
+    text-shadow: black 2px 2px;
+}
+
+.header__carrusel__p {
+    font-size: small;
+    font-weight: bold;
+    text-shadow: black 2px 2px;
+}
+
+/* TUVE QUE AGREGARLE UNA ID PORQUE A LOS BOTONES DEL CARRUSEL XQ SINO POR UN TEMA DE ESPECIFICIDAD CON BOOTSTRAP NO ME TOMA LOS ESTILOS. */
+
+#buttonCarousel {
+    background-color: rgb(93, 175, 220);
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    font-size: 100%;
+    font-weight: inherit;
+    text-shadow: black 1px 1px;
+    border-radius: 30px 30px;
+}
+
+#buttonCarousel:hover {
+    background-color: rgb(131, 197, 233);
+    cursor: pointer;
+}

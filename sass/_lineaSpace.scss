@@ -1,0 +1,49 @@
+/* LINEA SPACE */
+
+.bodyLineaSpace {
+    background-image: linear-gradient(0, #f8e9d8 0, #f6e9d8 5.56%, #f4ead8 11.11%, #f1ebd8 16.67%, #efecd8 22.22%, #ececd9 27.78%, #e9edda 33.33%, #e6eedb 38.89%, #e4eedc 44.44%, #e1efde 50%, #def0e0 55.56%, #dcf0e2 61.11%, #daf0e4 66.67%, #d8f1e7 72.22%, #d6f1e9 77.78%, #d5f1eb 83.33%, #d4f1ee 88.89%, #d3f1f0 94.44%, #d3f1f2 100%);
+}
+
+
+.mainLineaSpace__elementoLineaSpace {
+    width: 90%;
+    height: 75%;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px black;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+
+.mainLineaSpace__elementoLineaSpace__img {
+    height: 90%;
+    width: 100%;
+}
+
+.mainLineaSpace__elementoLineaSpace__a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainLineaSpace__elementoLineaSpace:hover {
+    transform: scale(1.05);
+    transition: 0.55s;
+}
+
+.mainLineaSpace__elementoLineaSpace__a:hover {
+    color: cadetblue;
+    text-shadow: rgb(4, 77, 77) 1px 1px;
+}
+
+
+@media (max-width: 515px) {
+    .mainLineaSpace__elementoLineaSpace {
+        height: 90%;
+    }
+    .mainLineaSpace__elementoLineaSpace__a p {
+        margin-bottom: 55px;
+    }
+}

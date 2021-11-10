@@ -1,0 +1,52 @@
+/* MEDIAS CARRUSEL */
+
+@media (max-width: 375px) {
+    .header__carrusel__caption{
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .header__carrusel__caption {
+        margin-bottom: 5%;
+    }
+}
+
+/* MEDIAS MAIN */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main__productosIndex__exhibidorProductos__elemento {
+        width: 100%;
+        height: 80%;
+    }
+
+    .main__productosIndex__exhibidorProductos__elemento__img {
+        height: 88%;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+    .main__productosIndex__exhibidorProductos__elemento {
+        width: 100%;
+        height: 80%;
+    }
+
+    .main__productosIndex__exhibidorProductos__elemento__img {
+        height: 88%;
+    }
+}
+
+@media (max-width: 575px) {
+    .main__productosIndex__exhibidorProductos__elemento {
+        width: 100%;
+        height: 80%;
+    }
+
+    .main__productosIndex__exhibidorProductos__elemento__img {
+        height: 84%;
+    }
+
+    .main__videos__contenedorVideos {
+        text-align: center;
+    }
+}

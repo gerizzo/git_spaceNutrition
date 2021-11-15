@@ -81,6 +81,10 @@
   .main__videos__contenedorVideos {
     text-align: center; } }
 
+@media (max-width: 461px) {
+  .main__productosIndex__exhibidorProductos__elemento__p {
+    font-size: smaller; } }
+
 /* PRODUCTOS INDEX */
 .main__productosIndex__titleProductos {
   height: 20%;

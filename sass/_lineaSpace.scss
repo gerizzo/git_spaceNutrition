@@ -26,18 +26,13 @@
 .mainLineaSpace__elementoLineaSpace__a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 .mainLineaSpace__elementoLineaSpace:hover {
     transform: scale(1.05);
     transition: 0.55s;
 }
-
-.mainLineaSpace__elementoLineaSpace__a:hover {
-    color: cadetblue;
-    text-shadow: rgb(4, 77, 77) 1px 1px;
-}
-
 
 @media (max-width: 515px) {
     .mainLineaSpace__elementoLineaSpace {
